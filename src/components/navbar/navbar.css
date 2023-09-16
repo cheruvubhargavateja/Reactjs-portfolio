@@ -1,0 +1,90 @@
+.nav-main{
+    display: flex;
+    margin-top: 10px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    width: 95%;
+    margin-left: 2.5%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    position: fixed;
+    background: #fff;
+    z-index: 99;
+  }
+
+  .navbar-logo{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #222;
+    background-color: transparent;
+  }
+
+  .navbar-logo .brand{
+    color: #17cf97;
+    font-size: 2rem;
+    background-color: transparent;
+  }
+
+  .icons{
+    background-color: transparent;
+    margin-right: 5px;
+  }
+
+  .navbar-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: transparent;
+  }
+
+  .navbar-links li{
+    color: #222;
+    background-color: transparent;
+    list-style: none;
+  }
+
+  .navbar-links .nav-link{
+    text-decoration: none;
+    color: #222;
+    background-color: transparent;
+    padding: 5px 13px;
+    margin: 0px 5px;
+    border-radius: 3px;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .navbar-links .nav-link:hover{
+    background-color:#17cf97;
+    color: #fff;
+  }
+
+  .active{
+    background-color:#17cf97 !important;
+    color: #fff !important;
+  }
+
+  .nav-title{
+    margin-left: 5px;
+  }
+
+  .signup-btn{
+    border: 1px solid #17cf97;
+    color: #17cf97;
+    padding: 8px 13px;
+    border-radius: 3px;
+    font-size: 1.5;
+    font-weight: 600;
+    background: transparent;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+  }
+
+  .signup-btn:hover{
+    background-color: #17cf97;
+    color:#fff;
+  }

@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 600px;
+}
+
+.hero-sections{
+    margin-top: 160px;
+    width: 55%;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(8px); /* Apply a blur effect to the background */
+    border-radius: 50px 0px 50px 0px; /* Rounded corners for a smoother look */
+    padding: 20px; /* Add some padding for content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+main img{
+    margin-top: 160px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.about-section{
+    margin-top: 160px;
+    width: 55%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h1{
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-shadow: none;
+    color: #17cf97;
+}
+
+.about-section p{
+    color: #222;
+    padding: 10px;
+    font-size: 1.2rem;
+}
