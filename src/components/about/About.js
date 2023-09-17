@@ -2,10 +2,10 @@ import React from 'react'
 import './about.css'
 import images from './images.json'
 
-const About = (props) => {
+const About = () => {
   return (
     <main className='about'>
-            <section className={props.isLink ? 'hero-sections' : 'about-section'}>
+            <section className='about-section'>
             <h1>Hey there!! Do you want to know me?</h1>
             <p>
             Hi, I'm Bhargava Teja C., a passionate Software Engineer hailing from Anantapur, Andhra Pradesh, India. With 1.5 years of hands-on experience, I specialize in building dynamic web applications using cutting-edge technologies.

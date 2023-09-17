@@ -11,9 +11,9 @@ const navbarContents = [
   },
   {
     id: 2,
-    name: 'About',
+    name: 'Skills',
     icon: 'fa fa-user',
-    path: '/about'
+    path: '/skills'
   },
   {
     id: 3,

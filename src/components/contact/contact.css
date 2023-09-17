@@ -1,0 +1,58 @@
+/* Center the entire form */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    height: 100%;
+  }
+  
+  /* Style the form */
+  form {
+    margin-top: 120px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* width: 400px; Adjust this value for desired width */
+  }
+  
+  /* Style form elements */
+  label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #17cf97;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 300px;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s all ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0ab17f;
+  }
+  
